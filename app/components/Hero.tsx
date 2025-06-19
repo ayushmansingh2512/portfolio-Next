@@ -34,7 +34,7 @@ const Hero = () => {
                 >
                 Resume
                 </button></a>
-<p className=' text-gray-400 text-xl md:text-2xl'>Tools and coding landuages I know</p>
+<p className=' text-gray-400 text-xl md:text-2xl'>Languages, tools, and frameworks I work with:</p>
 <div className='flex flex-wrap gap-5 md:gap-10'>
 
   {[...images ].map((src, index) => (
