@@ -20,6 +20,9 @@ const Footer = () => {
         <a href="https://www.instagram.com/ayushman_singh_red/?hl=en" target="_blank" rel="noopener noreferrer">
           <img className='h-10 w-auto' src="/instagram.svg" alt="Instagram" />
         </a>
+        <a href="https://leetcode.com/u/ayushmansingh2512/" target="_blank" rel="noopener noreferrer">
+          <img className='h-10 w-auto' src="/leetcode.svg" alt="Leetcode" />
+        </a>
       </div>
 
       <p className="text-sm text-gray-500">© 2025 Ayushman Singh. All rights reserved.</p>
