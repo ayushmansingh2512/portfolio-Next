@@ -20,7 +20,7 @@ const images = [
 ];
 const Hero = () => {
   return (
-    <div  className="max-w-6xl mx-auto px-4 my-20  flex flex-col justify-between gap-14   items-start">
+    <div  className="max-w-6xl mx-auto px-4 my-20  flex flex-col justify-between lg:gap-14 gap-8  items-start">
       <p className='text-green-600 bg-green-200 px-5 py-2 rounded-md'>Hey my name is Ayushman Singh</p>
       <h1 className='md:text-5xl  text-2xl font-medium leading-snug w-full md:w-[60%]  '
         style={{ wordSpacing: "-0.1 em" }}  >
