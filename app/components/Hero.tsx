@@ -15,7 +15,7 @@ const images = [
 'PostgresSQL.svg',
 'Tailwind CSS.svg',
 'Git.svg',
- 
+'Vercel1.svg',
 'Python.svg'
 ];
 const Hero = () => {
