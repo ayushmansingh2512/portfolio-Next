@@ -9,7 +9,7 @@ const Footer = () => {
       
       <div className="flex gap-4">
         <a href="https://linkedin.com/in/ayushman-singh-9a6244265" target="_blank" rel="noopener noreferrer">
-          <img className='h-10 w-auto' src="/LinkedIn.svg" alt="LinkedIn" />
+          <img className='h-10 w-auto' src="/linkedIn.svg" alt="LinkedIn" />
         </a>
         <a href="https://github.com/ayushmansingh2512" target="_blank" rel="noopener noreferrer">
           <img className='h-10 w-auto' src="/GitHub.svg" alt="GitHub" />
