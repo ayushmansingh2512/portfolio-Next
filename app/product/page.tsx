@@ -2,13 +2,7 @@ import React from 'react';
 import { client } from '../lib/sanity';
 import { ProjectCard } from '../lib/interface';
 
-export interface ProjectCard {
-    name: string;
-    githubLink: string;
-    imageUrl: string;
-    projectLink: string;
-}
-
+ 
 async function getData() {
     const query = `*[_type == 'project'] {
         name,
