@@ -26,7 +26,7 @@ const ProjectsPage = async () => {
     return (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
             <div className="text-center mb-16">
-                <h1 className="text-4xl lg:mb-2 md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">
+                <h1 className="text-4xl  lg:pb-1.5 md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">
                     My Projects
                 </h1>
                 <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
