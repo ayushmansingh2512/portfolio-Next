@@ -39,9 +39,9 @@ const splitTextIntoWords = (element: HTMLElement) => {
 const animateWords = (words: NodeListOf<Element>) => {
   words.forEach((word, index) => {
     setTimeout(() => {
-      word.style.transition = "all 0.6s cubic-bezier(0.4, 0, 0.2, 1)";
-      word.style.opacity = "1";
-      word.style.transform = "translateY(0px)";
+      (word as HTMLElement).style.transition = "all 0.6s cubic-bezier(0.4, 0, 0.2, 1)";
+      (word as HTMLElement).style.opacity = "1";
+      (word as HTMLElement).style.transform = "translateY(0px)";
     }, index * 50);
   });
 };
