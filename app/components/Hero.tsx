@@ -20,7 +20,8 @@ const images = [
 ];
 
 // Simple split text function
-const splitTextIntoWords = (element) => {
+const splitTextIntoWords = (element: HTMLElement) => {
+
   const text = element.textContent;
   const words = text.split(" ");
 
