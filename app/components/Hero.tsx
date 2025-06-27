@@ -36,7 +36,7 @@ const splitTextIntoWords = (element: HTMLElement) => {
 };
 
 // Simple stagger animation
-const animateWords = (words) => {
+const animateWords = (words: NodeListOf<Element>) => {
   words.forEach((word, index) => {
     setTimeout(() => {
       word.style.transition = "all 0.6s cubic-bezier(0.4, 0, 0.2, 1)";
