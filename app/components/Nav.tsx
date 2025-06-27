@@ -73,7 +73,11 @@ const Nav: React.FC = () => {
 
   return (
     <>
-      <nav className="max-w-6xl mx-auto px-4 sm:px-8 md:px-8 my-3 flex justify-between items-center">
+      <motion.nav 
+       initial={{ y: -50, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+      className="max-w-6xl mx-auto px-4 sm:px-8 md:px-8 my-3 flex justify-between items-center">
         <div>
           <Link href="/">
             <p className="font-xl text-gray-800 font-medium text-xl cursor-pointer">Ayushman</p>
@@ -90,7 +94,7 @@ const Nav: React.FC = () => {
             Contact Me
           </p>
         </motion.div>
-      </nav>
+      </motion.nav>
 
       {showModel && (
         <motion.div
