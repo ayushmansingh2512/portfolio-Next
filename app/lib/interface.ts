@@ -5,4 +5,5 @@ export interface ProjectCard {
   githubLink: string;
   imageUrl: string;
   projectLink: string;
+  description: string;
 }
