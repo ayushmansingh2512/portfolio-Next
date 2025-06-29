@@ -26,6 +26,18 @@ export const projectType = defineType({
       name: 'githubLink',
       title: 'GitHub Link',
       type: 'url',
+    },
+    {
+      name: 'description',
+      title: 'Description',
+      type: 'text',
+      rows: 4, // Optional: provides a larger input area in Sanity Studio
+    },
+    {
+      name: 'order',
+      title: 'Order',
+      type: 'number',
+      validation: (Rule) => Rule.required().integer().positive(),
     }
   ],
   preview: {
