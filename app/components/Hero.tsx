@@ -17,6 +17,8 @@ const images = [
   "Git.svg",
   "Vercel1.svg",
   "Python.svg",
+  "FastAPI.svg",
+  "Flask.svg",
 ];
 
 // Simple split text function
