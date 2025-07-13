@@ -43,7 +43,7 @@ const ProjectsPage = async () => {
                     data.map((item) => (
                         <div
                             key={item.name}
-                            className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out"
+                            className="group relative flex flex-col justify-between overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out"
                         >
                             {/* Image with gradient overlay */}
                             <div className="aspect-w-16 aspect-h-16 w-full h-64 md:h-80">
