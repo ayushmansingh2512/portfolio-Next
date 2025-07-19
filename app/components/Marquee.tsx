@@ -11,11 +11,12 @@ const images = [
 ];
 
 const secondImages = [
-  '/c1.png',
-  '/p1.png',
+  '/c5.png',
+ 
  
   '/spaceshooter.png',
   '/real.png',
+   '/p1.png',
 ];
 
 const Marquee = () => {
