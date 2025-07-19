@@ -53,7 +53,7 @@ const ProjectCardComponent: React.FC<ProjectCardComponentProps> = ({ project, in
                             href={project.githubLink}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors flex items-center gap-1"
+                            className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-blue-400 transition-colors flex items-center gap-1"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             onClick={(e) => e.stopPropagation()}
@@ -69,7 +69,7 @@ const ProjectCardComponent: React.FC<ProjectCardComponentProps> = ({ project, in
                             href={project.projectLink}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors flex items-center gap-1"
+                            className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-blue-400 transition-colors flex items-center gap-1"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             onClick={(e) => e.stopPropagation()}
