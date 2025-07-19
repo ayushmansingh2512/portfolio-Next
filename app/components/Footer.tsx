@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 mt-50 flex flex-col justify-between gap-8 mb-20 items-start">
       <a href="mailto:ayushmansingh2512@gmail.com">
-        <p className="text-xl md:text-2xl text-gray-400">Email : ayushmansingh2512@gmail.com</p>
+        <p className=" text-lg md:text-2xl text-gray-400">Email : ayushmansingh2512@gmail.com</p>
       </a>
       
       <div className="flex gap-4">
